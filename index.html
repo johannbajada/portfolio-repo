@@ -4,7 +4,184 @@
         <link href="style.css" rel="stylesheet" type="text/css">
         <meta charset="UFT-8">
         <meta lang="en">
-        <title>Johann Bajada | Front End Web Developer</title>
-    </head> 
-    <body></body>
+        <title>Johann Bajada | Front End Developer</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SKILLS</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>    
+                </ul>
+            </nav>
+            <div class="logo_name">
+                <img src="images/logo.png" alt="logo">
+                <h1>JOHANN BAJADA</h1>
+                <h3>Front-end Developer</h3>
+            </div>
+            <button alt="download CV">CV</button>         
+        </header>
+
+        <section id="about">
+            <div class="row">
+                <div class="column left">
+                    <h1>Hi I'm Johann Bajada!</h1>
+                    <h4>Front-end Web developer</h4>
+                    <p>Born and raised in Gozo, With a passion for Designing and Deveoping web apptications. 
+                        I am always looking to learn new knowgledge to keep up to date with the Web industry.                        lit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliqu
+                        am erat vonibh euismod tincidunt ut laoreet dolore
+                         magna aliquam erat volutpa</p>
+                    
+
+                    <table>
+                        <tr>
+                            <td>Age:</td>
+                            <td class="blue">21</td>
+                        </tr>
+                        <tr>
+                            <td>Nationality:</td>
+                            <td class="blue">Malta</td>
+                        </tr>
+                        <tr>
+                            <td>Phone:</td>
+                            <td class="blue">79073739 / 21563739</td>
+                        </tr>
+                        <tr>
+                            <td>Address:</td>
+                            <td class="blue">Il-qiegha, Laurent Ropa Street, Xaghra, Gozo, Malta</td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td class="blue">johannbajada44@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Website:</td>
+                            <td class="blue">johannbajda.com</td>
+                        </tr>
+                    
+                    </table>
+
+                           <!-- social media icons-->
+                           <div></div>
+                 
+                           <button>download CV</button>
+                </div>
+                <div class="column right">
+
+                    <img src="images/photo.png">
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h1>SKILLS</h1>
+            <hr>
+            <div class="mySkills">
+                <div class = "column left">
+                    
+                    <div class="skill">
+
+                        <div class="skillText">
+                        
+                        <h3 id="addInfo">HTML</h3>
+                        <p id="skillInfo">this is what i know about html this is a test and i am 
+                        looking to add as mucuh text as poosible to test the outcome of the code</p>
+
+                        </div>
+
+                        <div class="container">
+                            <div class="progress html"></div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="skill">
+                        <h3>Javascript</h3>
+                        <div class="container">
+                            <div class="progress javascript"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <h3>SASS</h3>
+                        <div class="container">
+                            <div class=" progress sass"></div>
+                        </div>
+                    </div>
+        
+
+                    <div class="skill">
+                        <h3>Python</h3>
+                        <div class="container">
+                            <div class="progress python"></div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="skill">
+                        <h3>Git/Github</h3>
+                        <div class="container">
+                            <div class="progress git"></div>
+                        </div>
+                    </div>
+
+                
+
+
+                    <div class="skill">
+                        <h3>React.js</h3>
+                        <div class="container">
+                            <div class="progress react"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+               
+        </section>
+
+
+
+        <section id="portfolio">
+            <h1>PORTFOLIO</h1>
+            <hr>
+            <select class="porfolioChoice">
+                <option select="selected">All</option>
+                <option>Illustration</option>
+                <option>Websites</option>
+                <option>Apps</option>
+            </select>
+           
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item">1</div>
+                <div class="portfolio-item">2</div>
+                <div class="portfolio-item">3</div>
+                <div class="portfolio-item">4</div>
+                <div class="portfolio-item">5</div>
+                <div class="portfolio-item">6</div>
+                <div class="portfolio-item">7</div>
+                <div class="portfolio-item">8</div>
+                <div class="portfolio-item">9</div>
+            </div>
+        </section>
+
+
+        <script>
+            
+            function test(){
+            const addInfo = document.getElementById("addInfo"); 
+            const skillInfo = document.getElementById("skillInfo");
+        }
+            
+            addInfo.onclick = test;
+
+        </script>
+
+
+    </body>
    </html>
+   

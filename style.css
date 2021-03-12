@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body .blue {
+  color: #005761;
+}
+
+header {
+  background-image: url(images/bg1.2.png);
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+header nav ul {
+  text-align: right;
+  padding: 4rem 8rem;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 1.5rem;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+header .logo_name {
+  text-align: center;
+}
+
+header .logo_name img {
+  display: block;
+  margin: 0 auto;
+  max-width: 5rem;
+  padding-top: 4rem;
+}
+
+header .logo_name h1 {
+  padding-top: 3.2rem;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  word-spacing: 1rem;
+  font-weight: 700;
+}
+
+header .logo_name h3 {
+  color: #ffb000;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+header button {
+  margin-top: 4rem;
+  font-size: 0.8rem;
+  color: #fff;
+  background: #005761;
+  border: none;
+  margin-left: 3rem;
+  padding: 0.7rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#about {
+  padding: 8rem 4rem;
+}
+
+#about .column {
+  float: left;
+}
+
+#about .left {
+  width: 60%;
+  padding: 2rem 5rem;
+}
+
+#about .left h1 {
+  font-size: 2.5rem;
+}
+
+#about .left h4 {
+  color: #005761;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-top: 0.5rem;
+}
+
+#about .left p {
+  padding-top: 2rem;
+  padding-right: 4rem;
+  font-weight: 700;
+}
+
+#about .left table {
+  list-style-type: none;
+  padding-top: 2rem;
+}
+
+#about .left table td {
+  padding: 0.5rem;
+  font-weight: 400;
+}
+
+#about .left button {
+  color: #fff;
+  background: #005761;
+  border: none;
+  padding: 0.7rem 1.3rem;
+  margin-top: 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#about .right {
+  text-align: center;
+  width: 40%;
+}
+
+#about .right img {
+  padding-top: 4rem;
+  width: 300px;
+}
+
+#about .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#skills h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#skills hr {
+  text-align: center;
+  text-align: center;
+  color: #005761;
+  display: block;
+  margin: 0.5rem auto;
+  width: 15%;
+  padding: 0.05rem 0;
+  background-color: #005761;
+}
+
+#skills .mySkills .column {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+#skills .mySkills .column .skill {
+  margin: 0 10rem;
+}
+
+#skills .mySkills .column .skill h3 {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+#skills .mySkills .column .skill p {
+  text-align: center;
+  padding: 1rem;
+}
+
+#skills .mySkills .column .skill .skillText {
+  width: 90%;
+}
+
+#skills .mySkills .column .skill .container {
+  width: 70%;
+  height: 36px;
+  background-color: #005761;
+  border-radius: 3rem;
+  margin: 0 auto;
+  display: block;
+}
+
+#skills .mySkills .column .skill .container .progress {
+  width: 40%;
+  height: 100%;
+  border: #005761 solid 2px;
+  background-color: #ffb000;
+  border-radius: 3rem 0 0 3rem;
+}
+
+#skills .mySkills .column .skill .container .html {
+  width: 80%;
+}
+
+#skills .mySkills .column .skill .container .react {
+  width: 20%;
+}
+
+#skills .mySkills .column .skill .container .sass {
+  width: 60%;
+}
+
+#skills .mySkills .column .skill .container .git {
+  width: 35%;
+}
+
+#skills .mySkills .column .skill .container .python {
+  width: 60%;
+}
+
+#skills .mySkills .column .skill .container .javascript {
+  width: 70%;
+}
+
+#portfolio {
+  margin-top: 5rem;
+}
+
+#portfolio h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#portfolio hr {
+  text-align: center;
+  text-align: center;
+  color: #005761;
+  display: block;
+  margin: 0.5rem auto;
+  width: 25%;
+  padding: 0.05rem 0;
+  background-color: #005761;
+}
+
+#portfolio .porfolioChoice {
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  color: #141416;
+  margin: 6rem 0 0 2rem;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+
+#portfolio .porfolioChoice option {
+  color: #005761;
+}
+
+#portfolio .portfolio-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+#portfolio .portfolio-grid .portfolio-item {
+  text-align: center;
+  display: block;
+  margin: 2rem auto;
+  width: 25rem;
+  height: 25rem;
+  border: 1px solid #005761;
+}
+/*# sourceMappingURL=style.css.map */
