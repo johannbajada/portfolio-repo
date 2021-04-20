@@ -1,0 +1,52 @@
+@import "../assets/styles/colors.scss";
+
+.skills {
+  margin-bottom: 12em;
+  .skills-title {
+    margin-bottom: 2em;
+  }
+
+  .skills-container {
+    p {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .skill-container {
+    // border: 1px solid orange;
+    padding-bottom: 2em;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .skill-bar {
+    background-color: $blue;
+    height: 2em;
+    border-radius: 1em;
+  }
+
+  .skill-progress {
+    height: 100%;
+    border: 3px solid $blue;
+    border-radius: 1em 0 0 1em;
+    background-color: $yellow;
+  }
+
+  @media (min-width: 750px) {
+    .skills-container {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .skill-container {
+      width: 100%;
+    }
+    .skills-col-1 {
+      width: 25%;
+    }
+
+    .skills-col-2 {
+      width: 25%;
+    }
+  }
+}

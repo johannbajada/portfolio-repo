@@ -1,0 +1,19 @@
+@import "./colors.scss";
+
+@mixin button {
+  .cv-btn {
+    background-color: #fff;
+    font-size: 0.8rem;
+    border: 1.5px solid $blue;
+    color: $blue;
+    padding: 0.4em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+  }
+
+  .cv-btn:hover {
+    color: #fff;
+    background-color: $blue;
+  }
+}

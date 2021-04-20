@@ -1,0 +1,46 @@
+@import "../assets/styles/colors.scss";
+
+/*=====
+main
+======*/
+
+header {
+  .header {
+    padding-top: 12em;
+  }
+  background-position: center;
+  height: 110vh;
+  background-size: cover;
+
+  .logo {
+    width: 8em;
+    margin-bottom: 2em;
+  }
+
+  .main-title {
+    color: #fff;
+    font-size: 2rem;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    margin-bottom: 0.5em;
+    border: none;
+  }
+
+  .main-subtitle {
+    color: $yellow;
+    font-size: 1rem;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+    font-weight: 300;
+  }
+
+  @media (min-width: 550px) {
+    .main-title {
+      font-size: 2.5rem;
+    }
+
+    .main-subtitle {
+      font-size: 1.5rem;
+    }
+  }
+} //end of header

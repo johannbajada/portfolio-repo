@@ -1,0 +1,90 @@
+@import "../assets/styles/colors.scss";
+@import "../assets/styles/buttons.scss";
+
+.about {
+  margin: 6em 0 12em 0;
+
+  .about-col-1 {
+    text-align: left;
+    padding: 2em;
+
+    .about-title {
+      margin-bottom: 3rem;
+    }
+
+    .about-description {
+      text-align: justify;
+      margin-bottom: 1.5em;
+    }
+
+    .about-table td {
+      padding: 1em 1em 0 0;
+    }
+
+    .about-table,
+    .social-icons,
+    .cv-btn {
+      margin-bottom: 1em;
+    }
+
+    .social-icons {
+      padding-left: 0;
+    }
+
+    .social-icons a {
+      color: $grey;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin: 0;
+      margin-right: 1.4em;
+      transition: all ease 1s;
+    }
+
+    .social-icons a:hover {
+      color: $yellow;
+    }
+
+    .cv-btn {
+      display: inline-block;
+      background-color: #fff;
+      font-size: 0.8rem;
+      border: 1.5px solid $blue;
+      color: $blue;
+      padding: 0.4em 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all ease 0.5s;
+      margin: 0;
+    }
+
+    .cv-btn:hover {
+      color: #fff;
+      background-color: $blue;
+    }
+  }
+}
+
+#portrait {
+  width: 15em;
+  max-width: 100%;
+}
+
+@media (min-width: 750px) {
+  .container-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .about-col-1 {
+    width: 45%;
+  }
+
+  .about-col-2 {
+    width: 45%;
+  }
+
+  #portrait {
+    width: 20em;
+  }
+}
