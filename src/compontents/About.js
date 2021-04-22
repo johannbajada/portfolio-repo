@@ -1,7 +1,7 @@
 import React from "react"
 import "./About.scss"
 import selfPortfrait from "../assets/images/photo.png"
-import CV from "../assets/images/CV.png"
+import CV from "../assets/images/CV.pdf"
 
 const About = () =>{
     return(
@@ -10,8 +10,8 @@ const About = () =>{
             <div className="about-col-1">
                 <h1 className="about-title">ABOUT ME</h1>
                 <p className="about-description"> Born and raised in Gozo, I am a 21 year old man that 
-                    has always been fascinated with how far the human race have come from with only 
-                    ones and zeros. I aspire to be part of this history and write as much code as possible!</p>
+                    has always been fascinated with how far the human race have come, from only 
+                    ones and zeros. I aspire to be part of this story and write as much code as possible!</p>
 
                 <table className="about-table">
                     <tr>

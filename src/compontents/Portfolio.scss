@@ -19,7 +19,7 @@
   margin-bottom: 2em;
 }
 
-$tabs: 4;
+$tabs: 4; //amount of tabs
 
 @mixin tabs {
   @for $i from 1 through $tabs {
@@ -102,6 +102,8 @@ label {
     align-items: center;
     position: relative;
     overflow: hidden;
+    transition: 1s all ease;
+    margin-bottom: 2em;
 
     img {
       position: absolute;
@@ -134,9 +136,11 @@ label {
       padding: 0.8em 1.5em;
       border-radius: 5px;
       cursor: pointer;
-      transition: all ease 0.5s;
+      transition: all ease-in-out 0.5s;
     }
-
+    &:hover {
+      transform: scale(0.9);
+    }
     &:hover,
     &:active {
       img {
@@ -162,6 +166,11 @@ label {
 }
 
 @media (min-width: 700px) {
+  .portfolio-grid {
+    .portfolioCard {
+      margin-bottom: 0;
+    }
+  }
   .portfolio-filter {
     width: 60%;
   }

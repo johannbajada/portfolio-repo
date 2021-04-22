@@ -8,7 +8,7 @@ const Portfolio = () =>{
 
     const [state, setState] = useState(porfolioData); 
 
-    const handleClick=(e)=>{
+    const handleClick=(e)=>{ 
         let word = e.target.value; 
         if(word==="all"){
             setState(porfolioData)
@@ -29,9 +29,10 @@ const Portfolio = () =>{
             const filtered = porfolioData.filter(info => info.type === "graphics")
             setState(filtered); 
         }
+        
     }
     const portfolioComponents = state.map(info => <PortfolioCard key ={info.id} img = {info.img} 
-        projectName = {info.projectName} projectType = {info.projectType}/>)
+        projectName = {info.projectName} projectType = {info.projectType} href = {info.href}/>)
 
 
         return(
@@ -40,22 +41,21 @@ const Portfolio = () =>{
                 <h1 className="portfolio-title" id="portfolio-title">PORFOLIO</h1>      
                 
                 <div className="portfolio-filter">
-                  <input onClick={handleClick} type="radio" name="filter" id="All" value="all" />
-                  <label for="All">All</label>
+                  <input  onClick={handleClick} type="radio" name="filter" id="All" value="all"  />
+                  <label  for="All">ALL</label>
                     
                   <input onClick={handleClick} type="radio" name="filter" id="react" value="react"/>
-                  <label for="react">React</label>
+                  <label for="react">REACT</label>
                     
                   <input onClick={handleClick} type="radio" name="filter" id="javascript" value="javascript"/>
-                  <label for="javascript">javascript</label>
+                  <label for="javascript">JAVASCRIPT</label>
                     
                   <input onClick={handleClick} type="radio" name="filter" id="graphics" value="graphics"/>
-                  <label for="graphics">Graphics</label>
+                  <label for="graphics">GRAPHICS</label>
                     
                   <div class="slider"></div>
                 </div>
-
-
+                
                 <div className="portfolio-grid">
                     {portfolioComponents}
                 </div>
