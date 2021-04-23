@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a654f5cf.chunk.css",
+    "main.js": "/static/js/main.8caaebc0.chunk.js",
+    "main.js.map": "/static/js/main.8caaebc0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cb51994f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cb51994f.js.map",
+    "static/js/2.a041e79a.chunk.js": "/static/js/2.a041e79a.chunk.js",
+    "static/js/2.a041e79a.chunk.js.map": "/static/js/2.a041e79a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a654f5cf.chunk.css.map": "/static/css/main.a654f5cf.chunk.css.map",
+    "static/js/2.a041e79a.chunk.js.LICENSE.txt": "/static/js/2.a041e79a.chunk.js.LICENSE.txt",
+    "static/media/CV.b6f9e6ee.pdf": "/static/media/CV.b6f9e6ee.pdf",
+    "static/media/autumn.7aa37afa.jpg": "/static/media/autumn.7aa37afa.jpg",
+    "static/media/bck-img.88d943fa.png": "/static/media/bck-img.88d943fa.png",
+    "static/media/hest.2e55546c.jpg": "/static/media/hest.2e55546c.jpg",
+    "static/media/menu.c3701de0.jpg": "/static/media/menu.c3701de0.jpg",
+    "static/media/photo.43364352.png": "/static/media/photo.43364352.png",
+    "static/media/pogba.5d89599f.jpg": "/static/media/pogba.5d89599f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb51994f.js",
+    "static/js/2.a041e79a.chunk.js",
+    "static/css/main.a654f5cf.chunk.css",
+    "static/js/main.8caaebc0.chunk.js"
+  ]
+}
